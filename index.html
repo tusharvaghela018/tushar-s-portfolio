@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tushar Vaghela</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a3d807449.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo-no-background.png" alt="logo not found" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Frontend Developer</p>
+                    <h1>Hi, I'm <span>Tushar</span> <br>From Ahmedabad</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- -----------------About------------------ -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="home.png" alt="Image not found">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm Tushar Vaghela, Computer Engineering Final year student at Vishwakarma government Engineering college Ahmedabad. And my aim is to provide best Web-designs, User-friendly layout and Interactive Websites and Frontend developer passionate about crafting user-friendly web experiences. With 1 year of experience, I specialize in React and Vue.js, delivering clean, maintainable code. I thrive on collaboration and continuous learning, aiming to elevate every project I work on. Let's connect!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>DSA</span><br>Problem Solving</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>FRESHER</span><br>BE Finsl Year student</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - 2025</span><br>B.E(Computer Engineering) From VGEC Ahmedabad </li>
+                                <li><span>2020 - 2021</span><br>12th Science From M.K Techno Science School Talaja</li>
+                                <li><span>2018 - 2019</span><br>10th From M.K Techno Science School Talaja</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------Services------------------------>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Custom Web Development</h2>
+                        <p>From concept to execution, I specialize in building custom websites tailored to your unique needs. Whether you're a startup or an established business, I ensure your online presence reflects your brand identity and engages your audience effectively.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Responsive Web Design</h2>
+                        <p>I design and develop websites that look stunning and function flawlessly on any device, be it a desktop, tablet, or smartphone. With a focus on responsive design principles, I guarantee a consistent user experience across various screen sizes and resolutions.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <h2>Website Maintenance and Support</h2>
+                        <p>Ensure your website remains secure, up-to-date, and performing optimally with my ongoing maintenance and support services. From regular backups and security audits to troubleshooting and bug fixes, I provide comprehensive support to keep your digital presence running smoothly.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-sketch"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Create intuitive and visually appealing interfaces that captivate and engage your audience. With a keen eye for detail and a user-centric approach, I design user interfaces that not only look beautiful but also prioritize usability, accessibility, and overall user satisfaction.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-people-arrows"></i>
+                        <h2>Social Media Integration</h2>
+                        <p>Harness the power of social media to expand your reach and engage your audience effectively. From integrating social media buttons and feeds to developing custom social media marketing solutions, I help you leverage the full potential of social platforms to grow your online presence and foster meaningful connections with your audience.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------Portfolio------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="game.png" alt="image not found">
+                        <div class="layer">
+                            <h3>Tic Tac Toe Game</h3>
+                            <p>Crafted with precision and strategy, my Tic Tac Toe project showcases elegant gameplay and sleek design, embodying the essence of classic fun with a modern twist. With intuitive controls and challenging AI, it's a testament to my passion for creating engaging gaming experiences.</p>
+                            <a href="https://tusharvaghela018.github.io/TIcTacToe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="quote.png" alt="image not found">
+                        <div class="layer">
+                            <h3>Random Quote Generator</h3>
+                            <p>My Random Quote Generator web app seamlessly blends inspiration with technology, offering a refreshing dose of wisdom with every click. Through its clean interface and dynamic content, it's a testament to my commitment to crafting user-centric digital experiences that uplift and engage.</p>
+                            <a href="https://tusharvaghela018.github.io/Random-Quote-Generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="ToDoList.png" alt="image not found">
+                        <div class="layer">
+                            <h3>ToDo list</h3>
+                            <p>For my To-Do List web app, I've combined simplicity with functionality, providing users with a streamlined platform to organize their tasks efficiently. With intuitive features and customizable options, it's a testament to my dedication to enhancing productivity through technology.</p>
+                            <a href="https://tusharvaghela018.github.io/ToDoList/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Weather.png" alt="image not found">
+                        <div class="layer">
+                            <h3>Weather web app</h3>
+                            <p>My Weather web app delivers instant access to accurate forecasts, seamlessly merging essential information with user-friendly design. From detailed forecasts to interactive maps, it's a testament to my commitment to creating accessible tools that empower users to stay informed and prepared.</p>
+                            <a href="https://tusharvaghela018.github.io/know-your-city-weather/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- ----------------------Contact------------------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> contact@example.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://x.com/kingvaghela5027?t=UEk55lItR1lwsHtovZo4Vw&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/tusharv_5027?igsh=MWF3YjR6d2lqcDZiOA=="><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/tushar-vaghela-42bb55281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Tushars_Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <p>Copyright &copy Tushar. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyZquXO-SKUSZ2Uz_Efv_oV78gfxYd44_JHWG0TrJi_U0xkVKPUKCXNX9lBtqCJ8T4y/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully."
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
